@@ -59,11 +59,9 @@ function poi2(){
       $.gg.bloburl =  window.URL.createObjectURL(this.response);
     	console.log( $.gg.bloburl );
       
-      $( '<video>', {
-        html: '影片',
+      $( '<img>', {
         'class': 'good',
         src:$.gg.bloburl,
-        'controls':'controls',
       }).appendTo('body');
     }
   }
