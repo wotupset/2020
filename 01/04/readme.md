@@ -5,4 +5,4 @@
 # 鳳凰都飛走了 進來一堆雞
 
 ![Imgur](https://i.imgur.com/Gn8zNDf.jpg)
-![Imgur](https://i.imgur.com/y46XFIa.jpg)
+![Imgur](https://i.imgur.com/y46XFIa.jpg =100x100)
