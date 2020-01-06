@@ -19,6 +19,8 @@ https://wotupset.github.io/2020/01/
   + https://wotupset.github.io/2020/01/04/twitter.htm  
   + https://wotupset.github.io/2020/01/04/image.htm 
 + 06
+  + https://wotupset.github.io/2020/01/06/video.htm 
   + https://wotupset.github.io/2020/01/06/twitter.htm  
+  + https://wotupset.github.io/2020/01/06/image.htm 
   
   
