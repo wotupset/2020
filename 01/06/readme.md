@@ -9,5 +9,10 @@
 
 # 愛江山更愛美人
 
-![Imgur](https://i.imgur.com/yjUXukP.png)
-![Imgur](https://i.imgur.com/DjTWUEz.jpg)
+<img src="https://i.imgur.com/yjUXukP.png" width="400" height="auto">
+<img src="https://i.imgur.com/DjTWUEz.jpg" width="400" height="auto">
+
+# 三千寵愛在一身
+
+<img src="https://i.imgur.com/sYTZqQw.jpg" width="400" height="auto">
+<img src="https://i.imgur.com/Tht1QOz.jpg" width="400" height="auto">
