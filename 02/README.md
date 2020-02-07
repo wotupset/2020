@@ -6,3 +6,7 @@ https://wotupset.github.io/2020/02/
   + https://wotupset.github.io/2020/02/01/video.htm 
   + https://wotupset.github.io/2020/02/01/twitter.htm  
   + https://wotupset.github.io/2020/02/01/image.htm 
++ 07
+  + https://wotupset.github.io/2020/02/07/video.htm 
+  + https://wotupset.github.io/2020/02/07/twitter.htm  
+  + https://wotupset.github.io/2020/02/07/image.htm 
