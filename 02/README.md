@@ -22,3 +22,7 @@ https://wotupset.github.io/2020/02/
   + https://wotupset.github.io/2020/02/23/video.htm 
   + https://wotupset.github.io/2020/02/23/twitter.htm  
   + https://wotupset.github.io/2020/02/23/image.htm 
++ 27
+  + https://wotupset.github.io/2020/02/27/video.htm 
+  + https://wotupset.github.io/2020/02/27/twitter.htm  
+  + https://wotupset.github.io/2020/02/27/image.htm 
