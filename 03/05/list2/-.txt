@@ -1,0 +1,14 @@
+-.txt
+3 (1).jpg
+3 (1).png
+3 (10).jpg
+3 (11).jpg
+3 (2).jpg
+3 (3).jpg
+3 (4).jpg
+3 (5).jpg
+3 (6).jpg
+3 (7).jpg
+3 (8).jpg
+3 (9).jpg
+list.bat
