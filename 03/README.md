@@ -18,7 +18,7 @@ https://wotupset.github.io/2020/03/
 
 
 
-<img src="https://i.imgur.com/TGBYwyq.jpg" width="400" height="auto"> 
-<img src="https://i.imgur.com/gdmlr20.jpg" width="400" height="auto">
+<img src="https://i.imgur.com/TGBYwyq.jpg" width="400" height="auto"> <img src="https://i.imgur.com/gdmlr20.jpg" width="400" height="auto">
 
 
+<img src="https://i.imgur.com/drx4S37.jpg" width="200" height="auto"> <img src="https://i.imgur.com/69z8i3S.jpg" width="200" height="auto"> <img src="https://i.imgur.com/uXbeCh4.jpg" width="200" height="auto">
