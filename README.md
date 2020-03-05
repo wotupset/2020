@@ -9,6 +9,9 @@ https://wotupset.github.io/2020/
 # 「道不遠人，人無異國」
 # 「青山一道，同擔風雨」
 
+<img src="https://i.imgur.com/m6cAM4r.png" width="400" height="auto">
+
+
 
 <img src="https://i.imgur.com/TGBYwyq.jpg" width="400" height="auto"> <img src="https://i.imgur.com/gdmlr20.jpg" width="400" height="auto">
 
