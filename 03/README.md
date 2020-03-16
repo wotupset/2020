@@ -14,10 +14,13 @@ https://wotupset.github.io/2020/03/
   + https://wotupset.github.io/2020/03/10/video.htm 
   + https://wotupset.github.io/2020/03/10/twitter.htm  
   + https://wotupset.github.io/2020/03/10/image.htm 
-
++ 15
+  + https://wotupset.github.io/2020/03/15/video.htm 
+  + https://wotupset.github.io/2020/03/15/twitter.htm  
+  + https://wotupset.github.io/2020/03/15/image.htm 
 
 <img src="https://i.imgur.com/w0bvRXD.jpg" width="400" height="auto">
-
+<img src="https://i.imgur.com/bIg858g.jpg" width="400" height="auto">
 
 
 
