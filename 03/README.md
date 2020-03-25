@@ -22,6 +22,11 @@ https://wotupset.github.io/2020/03/
   + https://wotupset.github.io/2020/03/20/video.htm 
   + https://wotupset.github.io/2020/03/20/twitter.htm  
   + https://wotupset.github.io/2020/03/20/image.htm 
++ 25
+  + https://wotupset.github.io/2020/03/25/video.htm 
+  + https://wotupset.github.io/2020/03/25/twitter.htm  
+  + https://wotupset.github.io/2020/03/25/image.htm 
+  
   
 <img src="https://i.imgur.com/w0bvRXD.jpg" width="400" height="auto">
 <img src="https://i.imgur.com/bIg858g.jpg" width="400" height="auto">
