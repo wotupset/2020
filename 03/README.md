@@ -30,6 +30,11 @@ https://wotupset.github.io/2020/03/
   + https://wotupset.github.io/2020/03/27/video.htm 
   + https://wotupset.github.io/2020/03/27/twitter.htm  
   + https://wotupset.github.io/2020/03/27/image.htm 
++ 31
+  + https://wotupset.github.io/2020/03/31/video.htm 
+  + https://wotupset.github.io/2020/03/31/twitter.htm  
+  + https://wotupset.github.io/2020/03/31/image.htm 
+
   
 <img src="https://i.imgur.com/w0bvRXD.jpg" width="400" height="auto">
 <img src="https://i.imgur.com/bIg858g.jpg" width="400" height="auto">
