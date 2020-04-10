@@ -12,3 +12,6 @@ https://wotupset.github.io/2020/04/
   + https://wotupset.github.io/2020/04/08/image.htm 
   
 <img src="https://i.imgur.com/bIg858g.jpg" width="400" height="auto">
+
+<img src="https://reurl.cc/0oXbLY" width="400" height="auto">
+
