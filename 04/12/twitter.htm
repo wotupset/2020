@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>title</title>
+<meta charset="UTF-8" />
+<style>
+body{
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+  console.log( 'DOMContentLoaded' );
+  var jsElm = document.createElement("script");
+  jsElm.type = "application/javascript";
+  jsElm.src = 'https://code.jquery.com/jquery-3.4.1.min.js';
+  //jsElm.integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  jsElm.onload = function(e){
+    console.log('jsElm.onload');
+	//id01.insertAdjacentHTML('afterbegin', 'jquery讀取成功');
+	poi();
+  };
+  //document.body.appendChild(jsElm);
+  document.head.appendChild(jsElm);
+});//DOMContentLoaded
+
+function poi(){
+
+	//
+	$(document).ready(function() {
+		console.log('document.ready');
+		time = new Date();
+		//
+		poi_ajax();
+		//poi();
+		poi2();
+	});//document).ready
+
+}//poi()
+
+function poi_ajax(){ 
+  var cc=0;
+  var cc2=0;
+  $( document ).ajaxStart(function() {
+    console.log( 'ajaxStart' );
+  });
+  $(document).ajaxComplete(function(event, xhr, settings ) { // event, xhr, settings
+    cc2++;
+    //console.log( 'ajaxComplete',cc2 );
+    //console.log( event, xhr, settings );
+	if( xhr.status == 200 ){
+		//console.log( xhr.status );
+		$("pre").html("<b>("+cc2+") "+ xhr.responseJSON.url +"</b>"); //較慢
+	}else{
+		//console.log( xhr.status );
+		$("pre").html("<b>("+cc2+") 錯誤</b>"); //較慢
+	}
+	//settings.url
+	//
+
+  });
+  $(document).ajaxStop(function() {
+    console.log( 'ajaxStop' );
+	//
+	if( $('blockquote.twitter-tweet').length > 0 ){
+		if(cc ==0){
+			console.log( '第一次執行' );
+			cc++;
+			poi_getjs();
+		}else{
+			console.log( '什麼都不執行' );
+		}
+	}
+  });
+  $(document).ajaxError(function() {
+    console.log( 'ajaxError' );
+  });
+  
+  
+}//poi_ajax()
+//poi_ajax()
+
+//依照id大小排序
+//依帳號排序
+
+function poi2(){
+	var qq=$("pre").text();
+	$("pre").html("<b>讀取測試</b>");
+	qq=qq.replace(/\r\n/g, "\n");
+	qq=qq.split("\n");
+	qq=qq.filter(Boolean);
+	//qq.sort(); //依帳號排序
+	//console.log( qq );
+	var url_id=[];
+	var url_array=[];
+	var url_array_2=[];
+	var url_array_3=[];
+	var cc=0;
+	for(i=0;i<qq.length;i++){
+		//console.log( qq[i] );
+		var aa=poi2b( qq[i] ); //檢查網址
+		//console.log( aa ); //收到的回傳值
+		if(url_id.includes( aa[1] )){
+			//有=重複
+			console.log( '重複id',aa[1] );
+		}else{
+			//無=新的
+			if( aa[1] == '跳過' ){
+				//跳過
+				console.log( aa ); 
+			}else{
+				url_id.push( aa[1] );//收集id
+				url_array.push( aa[0] );//收集url
+				cc++;
+				url_array_2.push( {id: aa[1], url:aa[0] } );
+			}
+		}
+	}
+	//console.log( url_array );
+
+	if( 1 ){
+		//依照id大小排序
+		//console.log( url_array_2 );排序前
+		url_array_2=url_array_2.sort(function(a,b){
+			//console.log( a.id,b.id );
+			return a.id - b.id;
+		});
+		//console.log( url_array_2 ); //排序後
+		
+		url_array_2.forEach(function(item,index){
+			url_array_3.push( item.url );
+		});
+		//console.log( url_array_3 ); //取url
+	}else{
+		//不排序
+		url_array_3=url_array;
+	}
+	
+	
+/*
+	console.log( url_id );
+	url_id=url_id.sort(function(a,b){
+		//console.log( a,b );
+		return a - b;
+	});
+	console.log( url_id );
+	
+	for(i=0;i<url_id.length;i++){
+		var aa = url_array.findIndex(function(x){
+			return x.includes( url_id[i] );
+		});
+		console.log( aa,url_array[aa],url_id[i] );
+		url_array_3.push( url_array[aa] );
+	};
+	console.log( url_array_3 );
+
+*/
+	
+
+	
+	for(i=0; i< url_id.length; i++){
+		//poi3(url_array,i); //ajax處理網址
+		
+		poi3(url_array_3,i); //ajax處理網址
+		//poi3( url_array_2.url ,i); //ajax處理網址
+	}
+}//poi2()
+//
+function poi2b(in1){//檢查網址
+	//console.log( in1 );//網址
+	var url= in1;
+	//
+	if( url.trim().length >0 ){
+		//y
+		//包含字串
+	}else{
+		//n
+		cc++;
+	}
+	
+	//
+	var cc=0;
+	var chk=url.includes("twitter.com");
+	if(chk){
+		//y
+		//網址要包含twitter.com
+	}else{
+		//n
+		cc++;
+	}
+	//
+	var re = /status\/([0-9]{15,20})/;
+	var res = url.match(re);
+	//console.log( res );
+	if(res){
+		//y
+		//網址要包含一串數字
+	}else{
+		//n
+		cc++;
+	}
+	//
+	if(cc>0){
+		//驗證失敗
+		url=''+url; //不改變
+		id='跳過'; //id
+	}else{
+		//url="https://twitter.com/i/status/"+res[1];
+		url=''+url; //不改變
+		id=res[1]; //id
+	}
+	//
+	var x=[];
+	x[0]=url;
+	x[1]=id;
+	return x;
+	
+}//poi2b()
+//poi2b()
+
+function poi3( url_array,url_count ){  //步進顯示
+	//let url_array=url_array;
+	//let url_count=url_count;
+	//
+	//console.log( url_array[url_count] );
+
+	//建立個別box
+	var str1 = "box"+url_count;
+	//var str2 = '<div id="'+str1+'">&emsp;'+pp+'</div>';
+	//var str2 = '<div id="'+str1+'">&emsp;🔰&ensp;'+qq[pp]+'</div>';
+	var FFF=url_count+1;
+	var str2 = '<div id="'+str1+'">&emsp;🔰&ensp;'+ FFF +'</div>'; //+url_array[url_count]
+	//var str2 = '<a href="#'+str1+'">§░&emsp;🔰&ensp;'+url_count+'</a>';
+	//str2='<div id="'+str1+'">'+str2+'</div>';
+/*
+&ZeroWidthSpace;
+&zwnj;
+&nbsp;  一般空格
+
+&ensp;  半形空格
+&emsp;  全形空格
+
+https://emojipedia.org/symbols/
+https://developer.wordpress.com/docs/photon/api/
+https://i2.wp.com/pbs.twimg.com/media/EFSeU3yVAAAn1J1.jpg?fit=2048,2048
+
+
+*/
+	$("#ddd").append( str2 );
+	var str3=$("#"+ str1 +"");
+	//console.log( str1,str3 );
+
+	//檢查網址
+	if( url_array[url_count] ){
+		var url='' + url_array[url_count];
+	}else{
+		console.log( '不存在網址1', url_array[url_count] );
+		//throw "錯誤error";
+		//poi4(url_array,url_count);//避免ajax延遲讀取變數
+		//return;
+	}
+	if( url.length >0 ){
+		//console.log(  );
+	}else{
+		console.log( '空字串' );
+		//console.log( url2 );
+	}
+//////
+
+try{
+	var url2 = new URL(url);
+	//console.log( url2 );
+}
+catch(err){
+	//解讀網址失敗
+	console.log( '解讀網址失敗2',url );
+	//throw "錯誤error";
+	//失敗就進行下一個
+	//poi4(url_array,url_count);//避免ajax延遲讀取變數
+	//return;
+}
+finally{}	
+//////
+	//console.log( url2 );
+	//console.log( url2.pathname );
+	
+	
+	
+	
+	//檢查網址//
+	//取得oembed內容
+	var jqxhr =$.ajax({
+	type:     "GET",
+	url:      "https://publish.twitter.com/oembed?url="+url,
+	dataType: "jsonp",
+	success: function(data,status,jqxhr){
+		//console.log( data,status,jqxhr );
+		//$("#box"+url_count ).append( $(data.html)[0] );
+		//$("pre").html("<b>("+pp+"/"+qq.length+") "+ status +" "+qq[pp]+"</b>");
+	},
+	error: function( jqXHR, textStatus, errorThrown ){
+		//console.log( jqXHR, textStatus, errorThrown );
+		//$("#box"+url_count ).append( '錯誤1' );
+	},
+	complete:function(data,status,jqxhr){
+		//console.log( pp,qq.length,qq[pp] );
+		//console.log( $('.twitter-tweet').length , url_array.length );
+		//讀取完 就讀取推特js
+		//ajax裡的東西會延遲執行
+		//url_array,url_count
+		if( url_array.length == $('blockquote.twitter-tweet').length ){
+			//發生錯誤會造成數量不同
+			//poi_getjs();//讀取完 就讀取推特js
+		}else{
+		}
+		if( url_count < (url_array.length-1)){
+			//pp++;
+			//poi3(qq,pp);
+		}else{
+			//poi_getjs();//讀取完 就讀取推特js
+		}
+		//
+		
+	},
+	});//ajax
+	
+	
+	jqxhr.done(function( data, textStatus, jqXHR ){//data,status,jqxhr
+		//data, textStatus, jqXHR
+		//console.log( a,b,c );
+		//console.log( pp,qq.length,qq[pp] );
+		//$("pre").html("<b>("+url_count+"/"+url_array.length+") "+b+" "+url_array[url_count]+"</b>"); //較慢
+		//console.log( 'jqxhr.done' );
+		//console.log( $(data.html) );
+		//$("#box"+url_count ).append( $(data.html)[0] );
+		$("#box"+url_count ).append( $(data.html) );
+	});
+	jqxhr.fail(function( jqXHR, textStatus, errorThrown ){ //jqXHR, textStatus, errorThrown
+		//console.log( a,b,c );
+		//$("pre").html("<b>("+url_count+"/"+url_array.length+") 錯誤</b>");
+		$("#box"+url_count ).append( '錯誤' + jqXHR.status );
+		console.log( "錯誤error", jqXHR.status,url );
+		if( jqXHR.status == '404' ){
+			console.log( "這個推特不存在" );
+		}else{
+			console.log( "???" );
+		}
+		//throw "錯誤error";
+		//throw new Error("錯誤error");
+	});
+	jqxhr.always(function(a,b,c){
+		//總是
+	});
+	
+	
+	//處理下一個
+	if(url_count < (url_array.length-1)){
+		//poi4( url_array,url_count );//避免ajax延遲讀取變數
+	}else{
+		//poi_getjs();
+	}
+	//
+
+  
+}//poi3
+//poi3
+
+function poi4( url_array,url_count ){ //避免ajax延遲讀取變數 //不使用了
+	url_count++;
+	//let url_array=url_array;
+	//let url_count=url_count;
+	//console.log( 'url_count',url_count );
+	if( url_count < url_array.length ){
+		poi3( url_array, url_count );//避免ajax延遲讀取變數
+	}else{
+		//poi_getjs();
+	}
+	//
+	//poi3(qq,pp);
+}//poi4()
+//poi4()
+
+
+//function poi0(){}
+
+function poi_getjs(){
+	console.log( '讀取twitter的api' );
+	//
+	poi_191127(); //檢查元素變動
+	//
+    //var jqxhr=$.getScript("https://platform.twitter.com/widgets.js");
+	var url='https://platform.twitter.com/widgets.js';
+	//var url='http://ram.komica2.net/00/src/1575395734604.jpg';
+	
+	var jqxhr=$.ajax({
+		url: url,
+		type: 'get',
+		dataType: "script", //設定成script 就不會傳給success handler //onprogress也沒反應
+		cache: true, //啟用暫存設定
+        global:false, //不觸發global事件
+		
+		//
+		xhrFields: {
+			onprogress: function(event){
+				console.log('這是xhrFields',event ); //xhrFields優先顯示 //沒有收到total 不能做進度條
+			},
+		},
+		//
+		xhr: function () {
+			//console.log('這是xhr');
+			var xhr = $.ajaxSettings.xhr();
+			console.log(xhr);
+			xhr.onprogress = function(e) {
+				console.log('這是xhr',e);
+			};
+			return xhr;
+		},
+		//
+
+
+		//
+
+	
+	});	
+	
+	jqxhr.done(function(a,b,c){//data,status,jqxhr
+		console.log( 'jqxhr.done' );
+		$("pre").html("完成"); //清掉了網址
+		//poi_191204(a); //dataType設定成script 就不用手動載入script
+/*
+		//var url2=url
+		$.getScript( url,function(e){
+			console.log("getScript callback"); //getScript不接受blob
+		}); 
+		//Not allowed to load local resource:
+
+*/
+		
+
+    //
+  });
+}//poi_getjs()
+//
+function poi_191204(in1){
+	console.log( 'poi_191204' );
+	var a = in1;
+	//
+	var blob = new Blob([a],{type: 'text/javascript'});
+	//console.log( blob );
+	var url = window.URL.createObjectURL(blob);
+	console.log( url );
+	var box = $('<script/>',{id: 'js_191204',});
+	//console.log( box );
+	$("pre").after( box ); //增加新元素
+	box = $('#js_191204');
+	console.log( box );
+
+	box.attr('src',url); //載入了js
+	console.log( box );
+	
+	window.URL.revokeObjectURL(url); //解除blob url
+	console.log( url );
+
+
+	if(0){
+		var id01=document.getElementById('ppp');
+		//var id01=document.getElementsByTagName("pre")[0];
+		id01.insertAdjacentHTML('beforebegin', 'beforebegin');
+		id01.insertAdjacentHTML('afterbegin', 'afterbegin');
+		id01.insertAdjacentHTML('beforeend', 'beforeend');
+		id01.insertAdjacentHTML('afterend', 'afterend');
+		//console.log( id01.outerHTML );
+	}else{
+		//$("pre").hide();
+		//var aa=$('div');
+		//var aa=$('blockquote.twitter-tweet');
+		//console.log( aa );
+		//poi_191127();
+		//$("pre").html("完成"); //清掉了網址
+	}
+}//poi_191204()
+//poi_191204()
+function poi_191127(){
+/*
+https://wangdoc.com/javascript/dom/mutationobserver.html
+Mutation Observer API 用来监视 DOM 变动。DOM 的任何变动，比如节点的增减、属性的变动、文本内容的变动，这个 API 都可以得到通知。
+*/
+
+	const observer = new MutationObserver(function(mutations, observer){
+		mutations.forEach(function(mutation) {
+			//console.log(mutation); //列舉變動
+		});	
+	});
+	var article = document.querySelector('div');
+	//var article = document; //整個網頁
+	
+	var options = {
+	  'attributes':true,
+	  'characterData':true,
+	  'childList': true,
+	  'subtree':true,
+	  'attributeOldValue':true,
+	  'characterDataOldValue':true,
+	  'attributeFilter':['class','src'],
+	} ;
+	observer.observe(article, options);
+	//observer.disconnect();
+}//poi_191127()
+//poi_191127()
+
+
+  
+  
+
+
+
+
+
+
+
+</script>
+
+	</head>
+	<body>
+	
+<pre id="ppp">
+
+https://twitter.com/kinnotamadx/status/1247540160855588865
+https://twitter.com/_gamuo_/status/1247483082053005312
+https://twitter.com/hakumai_0807/status/1247446178536423426
+https://twitter.com/kagiwada1219/status/1247458388788703234
+https://twitter.com/tnm_tyny/status/1247553519768330240
+https://twitter.com/yuki_grove/status/1247522907145637889
+https://twitter.com/a_maru123/status/1247560940402270208
+https://twitter.com/ss_8rsm__/status/1247818881365716992
+https://twitter.com/fFbl3bJ5wS0DMtr/status/1247378098804285440
+https://twitter.com/rianistako/status/1244567560135127041
+https://twitter.com/ryukisukune/status/1247449785616891907
+https://twitter.com/miya_292/status/1247557467333988353
+https://twitter.com/watano_ameko/status/1247884187501117440
+https://twitter.com/gurasion0310/status/1247876092620197888
+https://twitter.com/Honke02/status/1239353604311412736
+https://twitter.com/Yu_h1N/status/1248078392286531586
+https://twitter.com/tomo_hanama/status/1247870517534543872
+https://twitter.com/WYS_/status/1248092277848731649
+https://twitter.com/lTfC8qI4PATLiaC/status/1247870597289218048
+https://twitter.com/aikatsu_image/status/1248105875157340160
+https://twitter.com/Senyaogg/status/1247834327502606337
+https://twitter.com/hizirinne/status/1247878385222578180
+https://twitter.com/CMYK48277613/status/1247169858854252546
+https://twitter.com/aerial2009/status/1247491535202992128
+https://twitter.com/musasi1218/status/1195812463729471489
+https://twitter.com/ponnzuame/status/1248169293298073601
+https://twitter.com/Sho_lwlw/status/1247628349075124225
+https://twitter.com/yonema/status/1247916809694490624
+https://twitter.com/shiroganenoel/status/1248011774827229184
+https://twitter.com/iwaogom/status/1247783509650890754
+https://twitter.com/z3_cut/status/1024286896367656961
+https://twitter.com/amamiya_kokoro/status/1248202722072903682
+https://twitter.com/yashiro_tyoK/status/1247844718500704256
+https://twitter.com/sunsun2812/status/1246776267816366080
+https://twitter.com/medilore/status/1227014281151107077
+https://twitter.com/nagamyu/status/921583184424214528
+https://twitter.com/wasumi_kei/status/1246258478760390662
+https://twitter.com/1RBOX_CCC/status/1245696900000444416
+https://twitter.com/unyoge/status/1248227621273395204
+https://twitter.com/takenokonoyou/status/1248075270415724545
+https://twitter.com/szno9/status/1218496268797796354
+https://twitter.com/anmonaito1324/status/1236985752224804864
+https://twitter.com/UnoRyoku/status/1236726394702319618
+https://twitter.com/TaketoriZaiku/status/1235741761655328768
+https://twitter.com/robinsonk9999/status/1233686102428381184
+https://twitter.com/surumeri/status/1247864337584107522
+https://twitter.com/_jujumit/status/1248116445952634880
+https://twitter.com/nagiromi/status/1246015247829233665
+https://twitter.com/nagiromi/status/1231557014112763904
+https://twitter.com/umaiyo_puyoman/status/1248447417155895296
+https://twitter.com/kidachi_p/status/1248451500063379457
+https://twitter.com/matchach/status/1248308756816920577
+https://twitter.com/Lirseven/status/1246013496417869828
+https://twitter.com/Lirseven/status/1119557657231118336
+https://twitter.com/shiina_2256/status/1248176514543153152
+https://twitter.com/satake_take/status/1248268849708822530
+https://twitter.com/youtonjoe2/status/1248269596219420680
+https://twitter.com/satake_take/status/1248267227071012865
+https://twitter.com/vegetabo/status/1248267711085338625
+https://twitter.com/siroawasabi/status/1248267420092887040
+https://twitter.com/masnicle/status/1248228260783120385
+https://twitter.com/Maturirury/status/1248217130744434690
+https://twitter.com/dokanmania/status/1248196423453007872
+https://twitter.com/RR_aikatsu/status/1247894896255488002
+https://twitter.com/kokonananya/status/1248132328221577216
+https://twitter.com/rr_aikatsu/status/1247894896255488002
+https://twitter.com/laevateinn495/status/1236583089716879360
+https://twitter.com/sugue_304/status/1247900024962342918
+https://twitter.com/satsumi624/status/1248346029499408384
+https://twitter.com/momo_inu/status/1248362896871972866
+https://twitter.com/hoshi_u3/status/1248196103448621056
+https://twitter.com/03ioi/status/1228260781570945030
+https://twitter.com/03ioi/status/1165564486163427328
+https://twitter.com/pizzasi7/status/1248566913287905280
+https://twitter.com/tomonotori/status/1248200641136087043
+https://twitter.com/sian_sasaland/status/1248568823952764929
+https://twitter.com/asagimu/status/1239765017286692866
+https://twitter.com/6nasiki/status/1248420961184960512
+https://twitter.com/_smiyao/status/1248301305648406529
+https://twitter.com/hako_roku/status/1248550005423529987
+https://twitter.com/nakaeri_gogo/status/1248589691521093636
+https://twitter.com/milky175/status/1229757810616856578
+https://twitter.com/krosa1028/status/1244614668624097280
+https://twitter.com/krosa1028/status/1238418814204694528
+https://twitter.com/jeonghee1414/status/1241669646664617985
+https://twitter.com/_shinycolors_/status/1248822070927998976
+https://twitter.com/eightman_/status/1248749303134171136
+https://twitter.com/kyou023/status/1248851952802226178
+https://twitter.com/minori_chigusa/status/1248875983970529280
+https://twitter.com/applepie4607/status/1248845369917583360
+https://twitter.com/narae_2729/status/1248592016549662720
+https://twitter.com/NINLION/status/1248860451187781632
+https://twitter.com/Victim_Girls/status/1248954872898007040
+https://twitter.com/_smiyao/status/1137042321956933632
+https://twitter.com/umeboshimaro/status/1248606887840382977
+https://twitter.com/okaka_01eba/status/1248198792106504192
+https://twitter.com/kenken55513/status/1249096345723359233
+https://twitter.com/katagisi222/status/1248011779935879168
+https://twitter.com/kurottari/status/1248144943618510849
+https://twitter.com/baniro__/status/1248989699844100096
+https://twitter.com/sakana_3mgmg/status/1248893835314204677
+https://twitter.com/luta_kuzaki/status/1248943943045140481
+https://twitter.com/hanamaron/status/1249133038514176001
+https://twitter.com/kurosan_1f/status/1249152865622523904
+https://twitter.com/takanotume_/status/1249157125957464065
+https://twitter.com/hanamaron/status/1249151138588512258
+https://twitter.com/LzzRwi603/status/1248825383295709185
+https://twitter.com/shottare5/status/1248220258571182081
+https://twitter.com/shottare5/status/1177209811038949376
+
+</pre>
+
+<div id="ddd"></div>
+
+
+	</body>
+</html>
