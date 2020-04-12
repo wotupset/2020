@@ -10,6 +10,10 @@ https://wotupset.github.io/2020/04/
   + https://wotupset.github.io/2020/04/08/video.htm 
   + https://wotupset.github.io/2020/04/08/twitter.htm  
   + https://wotupset.github.io/2020/04/08/image.htm 
++ 12
+  + https://wotupset.github.io/2020/04/12/video.htm 
+  + https://wotupset.github.io/2020/04/12/twitter.htm  
+  + https://wotupset.github.io/2020/04/12/image.htm 
   
 <img src="https://i.imgur.com/bIg858g.jpg" width="400" height="auto">
 
