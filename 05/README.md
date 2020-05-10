@@ -10,7 +10,15 @@ https://wotupset.github.io/2020/05/
   + https://wotupset.github.io/2020/05/07/video.htm 
   + https://wotupset.github.io/2020/05/07/twitter.htm  
   + https://wotupset.github.io/2020/05/07/image.htm 
-
++ 10
+  + https://wotupset.github.io/2020/05/10/video.htm 
+  + https://wotupset.github.io/2020/05/10/twitter.htm  
+  + https://wotupset.github.io/2020/05/10/image.htm 
+  
+  
+  
+  
+  
 # 自粛警察
 <img src="https://i.imgur.com/bIg858g.jpg" width="400" height="auto">
 
