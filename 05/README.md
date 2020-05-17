@@ -43,6 +43,8 @@ https://wotupset.github.io/2020/05/
 
 <img src="https://i.imgur.com/IIf3GOk.gif" width="400" height="auto">
 <img src="https://i.imgur.com/Dp7ywE2.gif" width="400" height="auto">
+<img src="https://i.imgur.com/rgBYGYk.gif" width="400" height="auto">
+<img src="https://i.imgur.com/5jvhWvG.gif" width="400" height="auto">
 
 
 
@@ -75,6 +77,9 @@ https://wotupset.github.io/2020/05/
 
 <img src="https://i0.wp.com/i.imgur.com/xQ56iH9.png?fit=1200,1200&quality=20">
 <img src="https://demo.cloudimg.io/v7/https://i.imgur.com/1fmcEQa.jpg?q=20&width=1200&height=1200&func=bound">
+
+<img src="https://i0.wp.com/i.imgur.com/5CnXkUn.png?fit=1200,1200&quality=20">
+<img src="https://demo.cloudimg.io/v7/https://i.imgur.com/V7cGCn0.jpg?q=20&width=1200&height=1200&func=bound">
 
 
 
