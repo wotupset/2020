@@ -22,6 +22,10 @@ https://wotupset.github.io/2020/05/
   + https://wotupset.github.io/2020/05/14/video.htm 
   + https://wotupset.github.io/2020/05/14/twitter.htm  
   + https://wotupset.github.io/2020/05/14/image.htm 
++ 17
+  + https://wotupset.github.io/2020/05/17/video.htm 
+  + https://wotupset.github.io/2020/05/17/twitter.htm  
+  + https://wotupset.github.io/2020/05/17/image.htm 
   
   
   
@@ -33,6 +37,8 @@ https://wotupset.github.io/2020/05/
 <img src="https://i.imgur.com/y6pbkOK.jpg" width="400" height="auto">
 <img src="https://i.imgur.com/m5G0dxs.jpg" width="400" height="auto">
 <img src="https://i.imgur.com/bmpI7t3.jpg" width="400" height="auto">
+<img src="https://i.imgur.com/Yf1FZfG.png" width="400" height="auto">
+<img src="https://i.imgur.com/IIf3GOk.gif" width="400" height="auto">
 
 
 
@@ -58,6 +64,9 @@ https://wotupset.github.io/2020/05/
 
 <img src="https://i0.wp.com/i.imgur.com/s9ZNJCR.jpg?fit=1200,1200&quality=20">
 <img src="https://demo.cloudimg.io/v7/https://i.imgur.com/rxgBvBm.jpg?q=20&width=1200&height=1200&func=bound">
+
+<img src="https://i0.wp.com/i.imgur.com/xQ56iH9.png?fit=1200,1200&quality=20">
+<img src="https://demo.cloudimg.io/v7/https://i.imgur.com/1fmcEQa.jpg?q=20&width=1200&height=1200&func=bound">
 
 
 
