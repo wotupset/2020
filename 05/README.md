@@ -26,8 +26,12 @@ https://wotupset.github.io/2020/05/
   + https://wotupset.github.io/2020/05/17/video.htm 
   + https://wotupset.github.io/2020/05/17/twitter.htm  
   + https://wotupset.github.io/2020/05/17/image.htm 
-  
-  
++ 20
+  + https://wotupset.github.io/2020/05/20/video.htm 
+  + https://wotupset.github.io/2020/05/20/twitter.htm  
+  + https://wotupset.github.io/2020/05/20/image.htm 
+
+
   
 # 自粛警察
 <img src="https://i.imgur.com/bIg858g.jpg" width="400" height="auto">
