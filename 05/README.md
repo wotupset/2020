@@ -30,7 +30,10 @@ https://wotupset.github.io/2020/05/
   + https://wotupset.github.io/2020/05/20/video.htm 
   + https://wotupset.github.io/2020/05/20/twitter.htm  
   + https://wotupset.github.io/2020/05/20/image.htm 
-
++ 24
+  + https://wotupset.github.io/2020/05/24/video.htm 
+  + https://wotupset.github.io/2020/05/24/twitter.htm  
+  + https://wotupset.github.io/2020/05/24/image.htm 
 
   
 # 自粛警察
