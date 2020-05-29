@@ -72,6 +72,8 @@ https://wotupset.github.io/2020/05/
 
 
 
+<img src="https://i.imgur.com/CgOZTwl.png" width="200" height="auto">
+<img src="https://i.imgur.com/tQZ0mwY.png" width="200" height="auto">
 
 
 
