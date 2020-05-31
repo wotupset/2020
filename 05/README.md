@@ -47,9 +47,9 @@ https://wotupset.github.io/2020/05/
 # 自粛警察
 <img src="https://i.imgur.com/bIg858g.jpg" width="400" height="auto">
 <img src="https://i.imgur.com/3nXMNwM.jpg" width="400" height="auto">
-<img src="https://i.imgur.com/tB6rXi1.jpg" width="400" height="auto">
-
 <img src="https://i.imgur.com/CgOZTwl.png" width="400" height="auto">
+
+<img src="https://i.imgur.com/tB6rXi1.jpg" width="400" height="auto">
 <img src="https://i.imgur.com/3Sfb5Ws.jpg" width="400" height="auto">
 <img src="https://i.imgur.com/QXXPUas.gif" width="400" height="auto">
 
