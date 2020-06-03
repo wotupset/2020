@@ -10,6 +10,7 @@ https://wotupset.github.io/2020/06/
 # 測試
 <img src="" width="auto" height="auto">
 
+<img src="https://i.imgur.com/JLJyff2.jpg" width="auto" height="auto">
 
 + 01
 <img src="https://i.imgur.com/hfI7krm.png" width="360" height="auto">
@@ -23,7 +24,6 @@ https://wotupset.github.io/2020/06/
 <img src="https://i.imgur.com/CpGiD4l.png" width="auto" height="auto">
 
 + gif
-<img src="https://i.imgur.com/Zflf0AH.gif" width="200" height="auto">
 <img src="https://i.imgur.com/emHFrkr.gif" width="auto" height="auto">
 
 + camera
