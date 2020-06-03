@@ -12,11 +12,14 @@ https://wotupset.github.io/2020/06/
 
 
 + 01
-<img src="https://i.imgur.com/hfI7krm.png" width="auto" height="auto">
+<img src="https://i.imgur.com/hfI7krm.png" width="360" height="auto">
+<img src="https://i.imgur.com/sQGuZYM.jpg" width="360" height="auto">
+
 
 + 02
-<img src="https://i.imgur.com/mkmgInT.jpg" width="auto" height="auto">
+<img src="https://i.imgur.com/mkmgInT.jpg" width="360" height="auto">
 
 
 + gif
-<img src="" width="auto" height="auto">
+<img src="https://i.imgur.com/Zflf0AH.gif" width="200" height="auto">
+<img src="https://i.imgur.com/emHFrkr.gif" width="auto" height="auto">
