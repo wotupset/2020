@@ -14,6 +14,7 @@ https://wotupset.github.io/2020/06/
 + 01
 <img src="https://i.imgur.com/hfI7krm.png" width="360" height="auto">
 <img src="https://i.imgur.com/sQGuZYM.jpg" width="360" height="auto">
+<img src="https://i.imgur.com/CpGiD4l.png" width="auto" height="auto">
 
 
 + 02
@@ -23,3 +24,6 @@ https://wotupset.github.io/2020/06/
 + gif
 <img src="https://i.imgur.com/Zflf0AH.gif" width="200" height="auto">
 <img src="https://i.imgur.com/emHFrkr.gif" width="auto" height="auto">
+
++ photo
+<img src="https://i.imgur.com/qkZkBKo.jpg" width="360" height="auto">
