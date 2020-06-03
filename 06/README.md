@@ -25,6 +25,8 @@ https://wotupset.github.io/2020/06/
 
 + gif
 <img src="https://i.imgur.com/emHFrkr.gif" width="auto" height="auto">
+<img src="https://i.imgur.com/QXXPUas.gif" width="auto" height="auto">
+
 
 + camera
 <img src="https://i.imgur.com/qkZkBKo.jpg" width="360" height="auto">
