@@ -14,16 +14,17 @@ https://wotupset.github.io/2020/06/
 + 01
 <img src="https://i.imgur.com/hfI7krm.png" width="360" height="auto">
 <img src="https://i.imgur.com/sQGuZYM.jpg" width="360" height="auto">
-<img src="https://i.imgur.com/CpGiD4l.png" width="auto" height="auto">
+
 
 
 + 02
 <img src="https://i.imgur.com/mkmgInT.jpg" width="360" height="auto">
-
+<img src="https://i.imgur.com/PuOfL6g.jpg" width="360" height="auto">
+<img src="https://i.imgur.com/CpGiD4l.png" width="auto" height="auto">
 
 + gif
 <img src="https://i.imgur.com/Zflf0AH.gif" width="200" height="auto">
 <img src="https://i.imgur.com/emHFrkr.gif" width="auto" height="auto">
 
-+ photo
++ camera
 <img src="https://i.imgur.com/qkZkBKo.jpg" width="360" height="auto">
