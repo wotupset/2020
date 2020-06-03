@@ -17,11 +17,14 @@ https://wotupset.github.io/2020/06/
 <img src="https://i.imgur.com/sQGuZYM.jpg" width="360" height="auto">
 
 
+<img src="https://i.imgur.com/mkmgInT.jpg" width="360" height="auto">
 
 + 02
-<img src="https://i.imgur.com/mkmgInT.jpg" width="360" height="auto">
+
+<img src="https://i.imgur.com/Y8E2cPd.jpg" width="360" height="auto">
 <img src="https://i.imgur.com/PuOfL6g.jpg" width="360" height="auto">
-<img src="https://i.imgur.com/CpGiD4l.png" width="auto" height="auto">
+<img src="https://i.imgur.com/CpGiD4l.png" width="360" height="auto">
+
 
 + gif
 <img src="https://i.imgur.com/emHFrkr.gif" width="auto" height="auto">
