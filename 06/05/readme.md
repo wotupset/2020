@@ -4,7 +4,7 @@
 
 # 鳳凰都飛走了 進來一堆雞
 
-<img src="https://i.imgur.com/u5iDi30.png" width="400" height="auto">
+<img src="https://i.imgur.com/zPh4KIu.jpg" width="400" height="auto">
 <img src="https://i.imgur.com/ITeonbh.jpg" width="400" height="auto">
 
 # 愛江山更愛美人
