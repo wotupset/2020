@@ -18,7 +18,7 @@ $(document).ready(function() {
 	poi(door);
 });
 function poi(in1) {
-	$('body').append('<video controls src="'+in1+'"></video>');
+	$('body').append('<video controls src="'+in1+'" width="640" height="640"></video>');
 
 }
 function qqq() {
@@ -35,7 +35,12 @@ function qqq() {
 		QUERY[b[0]] = unescape(b[1]);
 	}
 	//全域
-	var door=QUERY['door'];
+	var door=''+QUERY['door'];
+	if(door.length>0){
+		//
+	}else{
+		door='https://files.catbox.moe/l690sp.mp4';
+	}
 	console.log(door);
 	//
 	return door;
