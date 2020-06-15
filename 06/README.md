@@ -18,7 +18,10 @@ https://wotupset.github.io/2020/06/
   + https://wotupset.github.io/2020/06/12/video.htm
   + https://wotupset.github.io/2020/06/12/twitter.htm
   + https://wotupset.github.io/2020/06/12/image.htm
-
++ 15
+  + https://wotupset.github.io/2020/06/15/video.htm
+  + https://wotupset.github.io/2020/06/15/twitter.htm
+  + https://wotupset.github.io/2020/06/15/image.htm
 
   
 # 測試
