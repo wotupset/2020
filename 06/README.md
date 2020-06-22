@@ -30,6 +30,11 @@ https://wotupset.github.io/2020/06/
   + https://wotupset.github.io/2020/06/21/video.htm
   + https://wotupset.github.io/2020/06/21/twitter.htm
   + https://wotupset.github.io/2020/06/21/image.htm
++ 22
+  + https://wotupset.github.io/2020/06/22/video.htm
+  + https://wotupset.github.io/2020/06/22/twitter.htm
+  + https://wotupset.github.io/2020/06/22/image.htm
+
 
 # 測試
 <img src="" width="auto" height="auto">
