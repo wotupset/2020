@@ -18,6 +18,12 @@ https://wotupset.github.io/2020/07/
   + https://wotupset.github.io/2020/07/15/video.htm 
   + https://wotupset.github.io/2020/07/15/twitter.htm  
   + https://wotupset.github.io/2020/07/15/image.htm
++ 19
+  + https://wotupset.github.io/2020/07/19/video.htm 
+  + https://wotupset.github.io/2020/07/19/twitter.htm  
+  + https://wotupset.github.io/2020/07/19/image.htm
+
+
 
 
 
