@@ -22,7 +22,10 @@ https://wotupset.github.io/2020/07/
   + https://wotupset.github.io/2020/07/19/video.htm 
   + https://wotupset.github.io/2020/07/19/twitter.htm  
   + https://wotupset.github.io/2020/07/19/image.htm
-
++ 21
+  + https://wotupset.github.io/2020/07/21/video.htm 
+  + https://wotupset.github.io/2020/07/21/twitter.htm  
+  + https://wotupset.github.io/2020/07/21/image.htm
 
 
 
