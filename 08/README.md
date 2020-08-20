@@ -87,5 +87,12 @@ https://wotupset.github.io/2020/08/
 ![Imgur](https://i.imgur.com/GOE4gbU.png)
 ![Imgur](https://i.imgur.com/vlqIDtp.jpg)
 
+
+<img src="https://i.imgur.com/DqnL0ww.jpg" width="400" height="auto">
+<img src="https://i.imgur.com/11u895F.jpg" width="400" height="auto">
+
+
+
+
 <img src="https://i.imgur.com/5J2Qwsv.jpg" width="400" height="auto">
 
