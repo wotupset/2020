@@ -37,7 +37,8 @@ https://wotupset.github.io/2020/08/
 
 
 
-111
+# 「問菩薩為何倒坐，嘆眾生不肯回頭。」
+
 ![](https://i.imgur.com/GkR8zPu.jpg)
 
 + 凛世
