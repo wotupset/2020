@@ -42,7 +42,10 @@ https://wotupset.github.io/2020/08/
   + https://wotupset.github.io/2020/08/26/video.htm
   + https://wotupset.github.io/2020/08/26/twitter.htm  
   + https://wotupset.github.io/2020/08/26/image.htm
-
++ 29
+  + https://wotupset.github.io/2020/08/29/video.htm
+  + https://wotupset.github.io/2020/08/29/twitter.htm  
+  + https://wotupset.github.io/2020/08/29/image.htm
 
 
 # 「問菩薩為何倒坐，嘆眾生不肯回頭。」
