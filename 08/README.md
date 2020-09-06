@@ -62,6 +62,7 @@ https://wotupset.github.io/2020/08/
 
 <img src="https://i.imgur.com/ESyabNg.jpg" width="400" height="auto">
 <img src="https://i.imgur.com/hK7ZK2a.jpg" width="400" height="auto">
+<img src="https://i.imgur.com/FPPvLqr.jpg" width="400" height="auto">
 
 
 + 殺生院
@@ -86,6 +87,7 @@ https://wotupset.github.io/2020/08/
 <img src="https://i.imgur.com/bVObciH.png" width="400" height="auto">
 <img src="https://i.imgur.com/nE0JRrZ.jpg" width="400" height="auto">
 <img src="https://i.imgur.com/Ku46zeD.jpg" width="400" height="auto">
+<img src="https://i.imgur.com/Iy47k7u.jpg" width="400" height="auto">
 
 
 
