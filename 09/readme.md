@@ -22,6 +22,12 @@ https://wotupset.github.io/2020/09/
   + https://wotupset.github.io/2020/09/12/video.htm
   + https://wotupset.github.io/2020/09/12/twitter.htm
   + https://wotupset.github.io/2020/09/12/image.htm
++ 15
+  + https://wotupset.github.io/2020/09/15/video.htm
+  + https://wotupset.github.io/2020/09/15/twitter.htm
+  + https://wotupset.github.io/2020/09/15/image.htm
+
+
 
 # 111
 [Imgur](https://i.imgur.com/odG87vM.jpg)
