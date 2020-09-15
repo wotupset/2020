@@ -37,14 +37,23 @@ https://wotupset.github.io/2020/09/
 
 # [ミリシタ]北上麗花
 https://imas.gamedbs.jp/mlth/chara/show/48/968
+
 png 1282*722
+
 <img src="https://i.imgur.com/WjN9S5M.png" width="400" height="auto">
+
 png 1028*1284
+
 <img src="https://i.imgur.com/DhJMTFT.png" width="400" height="auto">
+
 jpg 2052*1156
+
 <img src="https://i.imgur.com/gLAVrZ5.jpg" width="400" height="auto">
+
 jpg 1280*720
+
 <img src="https://i.imgur.com/uLNmHC2.jpg" width="400" height="auto">
+
 
 
 # 222
