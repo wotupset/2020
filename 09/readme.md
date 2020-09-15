@@ -36,7 +36,9 @@ https://wotupset.github.io/2020/09/
 ![Imgur](https://i.imgur.com/fgMI72J.jpg)
 
 # [ミリシタ]北上麗花
-https://imas.gamedbs.jp/mlth/chara/show/48/968
++ https://imas.gamedbs.jp/mlth/chara/show/48/968
++ https://twitter.com/ssr_ssr12/status/1304719345528889344/photo/2
+
 
 + png 1282*722
 
