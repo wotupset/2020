@@ -13,4 +13,4 @@ https://wotupset.github.io/2020/10/
 
 
 
-https://pbs.twimg.com/media/EjXY-3WVoAA8BrE?format=jpg&name=orig
+https://pbs.twimg.com/media/EjoIWbfUYAEXFIM?format=jpg&name=large
