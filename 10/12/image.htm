@@ -55,6 +55,8 @@ function poi191022b( str ){
 	str = str.split("\n"); //以行分割
 	var FFF='';
 	str=str.filter(function(item,index){
+		//console.log( item,index );
+		item=item.toLowerCase();
 		var aa=item.endsWith(".jpg");
 		if(aa){return true;}
 		var aa=item.endsWith(".png");
