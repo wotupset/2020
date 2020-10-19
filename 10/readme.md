@@ -22,6 +22,10 @@ https://wotupset.github.io/2020/10/
   + https://wotupset.github.io/2020/10/17/video.htm 
   + https://wotupset.github.io/2020/10/17/twitter.htm  
   + https://wotupset.github.io/2020/10/17/image.htm
++ 19
+  + https://wotupset.github.io/2020/10/19/video.htm 
+  + https://wotupset.github.io/2020/10/19/twitter.htm  
+  + https://wotupset.github.io/2020/10/19/image.htm
 
 
 
