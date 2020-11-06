@@ -10,6 +10,10 @@ https://wotupset.github.io/2020/11/
   + https://wotupset.github.io/2020/11/04/video.htm 
   + https://wotupset.github.io/2020/11/04/twitter.htm  
   + https://wotupset.github.io/2020/11/04/image.htm
++ 06
+  + https://wotupset.github.io/2020/11/06/video.htm 
+  + https://wotupset.github.io/2020/11/06/twitter.htm  
+  + https://wotupset.github.io/2020/11/06/image.htm
 
 
 ```
