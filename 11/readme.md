@@ -30,6 +30,13 @@ https://wotupset.github.io/2020/11/
   + https://wotupset.github.io/2020/11/18/video.htm 
   + https://wotupset.github.io/2020/11/18/twitter.htm  
   + https://wotupset.github.io/2020/11/18/image.htm
++ 20
+  + https://wotupset.github.io/2020/11/20/video.htm
+  + https://wotupset.github.io/2020/11/20/twitter.htm
+  + https://wotupset.github.io/2020/11/20/image.htm
+
+
+
 
 
 ```
