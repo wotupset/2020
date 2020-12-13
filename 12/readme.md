@@ -18,6 +18,10 @@ https://wotupset.github.io/2020/12/
   + https://wotupset.github.io/2020/12/10/video.htm
   + https://wotupset.github.io/2020/12/10/twitter.htm
   + https://wotupset.github.io/2020/12/10/image.htm
++ 14
+  + https://wotupset.github.io/2020/12/14/video.htm
+  + https://wotupset.github.io/2020/12/14/twitter.htm
+  + https://wotupset.github.io/2020/12/14/image.htm
 
 
 # ==
